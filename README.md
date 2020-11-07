@@ -13,10 +13,10 @@ The dataset used for this task is [Stanford Question Answering Dataset](https://
 Pretrained [GloVe embeddings](https://nlp.stanford.edu/projects/glove/) obtained from common crawl with 840B tokens are used for words.
 
 ## Requirements
-  * Python>=2.7
+  * Python>=3.3<=3.7
   * NumPy
   * tqdm
-  * TensorFlow>=1.5
+  * TensorFlow==1.5.0
   * spacy==2.0.9 (only if you want to load the [pretrained model](https://drive.google.com/open?id=1gJtcPBNuDr9_2LuP_4x_4VN6_5fQCdfB), otherwise lower versions are fine)
   * bottle (only for demo)
 
